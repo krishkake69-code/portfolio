@@ -1,0 +1,149 @@
+PROFILE
+[1;38m{[m
+[1;34m"bio"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"blog"[m[1;38m:[m [32m""[m[1;38m,[m
+[1;34m"company"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2025-09-22T05:53:11Z"[m[1;38m,[m
+[1;34m"followers"[m[1;38m:[m 6[1;38m,[m
+[1;34m"following"[m[1;38m:[m 7[1;38m,[m
+[1;34m"location"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"login"[m[1;38m:[m [32m"krishkake69-code"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"Priyanshu Attri"[m[1;38m,[m
+[1;34m"public_repos"[m[1;38m:[m 9
+[1;38m}[m
+REPOSITORIES
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-08-22T18:11:08Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/HHGOA-TASK2"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"HHGOA-TASK2"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-08-22T18:06:55Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-22T18:11:08Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 0
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-07-03T05:54:03Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [32m"A website for teacher "[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/Attri-classes"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"TypeScript"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"Attri-classes"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-08-19T18:21:44Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 1[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-19T18:29:16Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 1
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2025-12-28T05:21:35Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [32m"1st project"[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/krishkake69-code"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"krishkake69-code"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-08-14T15:22:20Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-14T15:23:37Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 0
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2025-12-29T06:51:17Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [32m"Traffic analyser "[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/Traffic-"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"HTML"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"Traffic-"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-08-13T04:29:26Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-13T04:29:30Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 0
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-07-31T13:14:33Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 1[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/nitro"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"TypeScript"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"nitro"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-07-31T16:04:04Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 1[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-10T08:17:51Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 1
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-08-04T10:58:06Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/leetcode"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"C++"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"leetcode"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-08-10T05:40:27Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 1[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-10T05:40:29Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 1
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-07-30T16:17:18Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [32m"The full-stack TypeScript framework to build, test, and deploy production-ready MCP servers and AI-native apps."[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/nitrostack"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"TypeScript"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"nitrostack"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-08-01T03:55:43Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 1[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-08-01T03:56:13Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 1
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-03-03T17:35:48Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"weekly"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [36mnull[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/step-weekly"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"Java"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"step-weekly"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-03-03T17:44:30Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-03-03T17:44:34Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 0
+[1;38m}[m
+[1;38m{[m
+[1;34m"archived"[m[1;38m:[m [33mfalse[m[1;38m,[m
+[1;34m"created_at"[m[1;38m:[m [32m"2026-02-23T18:27:11Z"[m[1;38m,[m
+[1;34m"default_branch"[m[1;38m:[m [32m"main"[m[1;38m,[m
+[1;34m"description"[m[1;38m:[m [32m"OOPS Banner App - Object-Oriented Programming Learning Project"[m[1;38m,[m
+[1;34m"forks_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"html_url"[m[1;38m:[m [32m"https://github.com/krishkake69-code/OOPSBannerApp"[m[1;38m,[m
+[1;34m"language"[m[1;38m:[m [32m"Java"[m[1;38m,[m
+[1;34m"name"[m[1;38m:[m [32m"OOPSBannerApp"[m[1;38m,[m
+[1;34m"pushed_at"[m[1;38m:[m [32m"2026-03-03T17:28:29Z"[m[1;38m,[m
+[1;34m"stargazers_count"[m[1;38m:[m 0[1;38m,[m
+[1;34m"topics"[m[1;38m:[m [1;38m[[m[1;38m][m[1;38m,[m
+[1;34m"updated_at"[m[1;38m:[m [32m"2026-02-23T18:33:37Z"[m[1;38m,[m
+[1;34m"watchers_count"[m[1;38m:[m 0
+[1;38m}[m
