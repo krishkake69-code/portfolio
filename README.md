@@ -1,8 +1,8 @@
-# 🌌 Priyanshu Attri — Universe Portfolio
+# Priyanshu Attri — Universe Portfolio
 
 A cinematic, space-themed personal portfolio built as an interactive flight path through my universe of skills, projects, and achievements.
 
-> _"Builds ideas that leave an orbit."_
+> *"Builds ideas that leave an orbit."*
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?logo=typescript&logoColor=white)
@@ -12,25 +12,25 @@ A cinematic, space-themed personal portfolio built as an interactive flight path
 
 ---
 
-## ✨ Overview
+## Overview
 
-This isn't a typical resume site — it's a **scroll-driven cinematic experience** where each section is a chapter in a cosmic narrative. The portfolio uses space metaphors (orbits, planets, star fields) to present my work in an immersive, story-first way.
+This is not a typical resume site — it is a **scroll-driven cinematic experience** where each section is a chapter in a cosmic narrative. The portfolio uses space metaphors (orbits, planets, star fields) to present work in an immersive, story-first format.
 
-### 🚀 Live Chapters
+### Chapters
 
 | Chapter | Section | Description |
 |---------|---------|-------------|
 | `00` | **Deep Space** | Hero landing with animated orbital visuals |
-| `01` | **Origin** | About me, academic stats & GitHub activity |
+| `01` | **Origin** | Background, academic stats, and GitHub activity |
 | `02` | **Skills Orbit** | Interactive skill constellation with hover states |
 | `03` | **Project Galaxy** | Clickable planet system — each project opens a detailed dossier |
-| `04` | **Academic Station** | SRM University grades & semester breakdown |
-| `05` | **Field Notes** | Certificates, hackathons, publications & GitHub repos |
+| `04` | **Academic Station** | SRM University grades and semester breakdown |
+| `05` | **Field Notes** | Certificates, hackathons, publications, and GitHub repositories |
 | `06` | **Cosmic Portal** | Contact form with email integration |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 |-------|-------------|
@@ -43,20 +43,20 @@ This isn't a typical resume site — it's a **scroll-driven cinematic experience
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
-- 🌑 **Dark cinematic theme** — immersive astral editorial design
-- 🎥 **Scroll-linked camera** — chapter rail navigation with travel animations
-- 🪐 **Interactive project galaxy** — click planets to open detailed project dossiers
-- ⌨️ **Keyboard navigation** — Arrow keys / Page Up/Down to travel between chapters
-- 📱 **Fully responsive** — adapts from desktop to mobile
-- ♿ **Accessible** — ARIA labels, reduced-motion support, semantic HTML
-- ✉️ **Contact form** — prefills a mailto link with form data
-- 📄 **Resume download** — one-click PDF download
+- **Dark cinematic theme** — immersive astral editorial design
+- **Scroll-linked camera** — chapter rail navigation with travel animations
+- **Interactive project galaxy** — click planets to open detailed project dossiers
+- **Keyboard navigation** — Arrow keys and Page Up/Down to travel between chapters
+- **Fully responsive** — adapts from desktop to mobile
+- **Accessible** — ARIA labels, reduced-motion support, semantic HTML
+- **Contact form** — prefills a mailto link with submitted data
+- **Resume download** — one-click PDF download
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -77,12 +77,12 @@ pnpm install
 pnpm dev
 ```
 
-The app will be available at `http://localhost:5173`.
+The application will be available at `http://localhost:5173`.
 
 ### Build for Production
 
 ```bash
-# Build client + server
+# Build client and server
 pnpm build
 
 # Start production server
@@ -91,7 +91,7 @@ pnpm start
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 priyanshu-universe-portfolio/
@@ -104,9 +104,9 @@ priyanshu-universe-portfolio/
 │   │   │   └── ui/                   # shadcn/ui components
 │   │   ├── contexts/        # Theme context provider
 │   │   ├── hooks/           # Custom React hooks
-│   │   ├── lib/             # Utilities & helpers
+│   │   ├── lib/             # Utilities and helpers
 │   │   ├── pages/           # Route pages (Home, NotFound)
-│   │   ├── App.tsx          # App shell & router
+│   │   ├── App.tsx          # App shell and router
 │   │   └── main.tsx         # Entry point
 │   └── index.html           # HTML template
 ├── server/
@@ -114,7 +114,7 @@ priyanshu-universe-portfolio/
 ├── shared/
 │   └── const.ts             # Shared constants
 ├── drizzle/                 # Database schema (future use)
-├── resume-pdf/              # Typst resume source & PDF
+├── resume-pdf/              # Typst resume source and PDF
 ├── package.json
 ├── vite.config.ts
 └── tsconfig.json
@@ -122,30 +122,24 @@ priyanshu-universe-portfolio/
 
 ---
 
-## 👤 About Me
+## About
 
-**Priyanshu Attri** — 2nd year student at **SRM University** | **9.65 CGPA**
+**Priyanshu Attri** — 2nd year B.Tech student at **SRM University** | **9.65 CGPA**
 
-- 🧠 AI enthusiast & student developer
-- 💻 Languages: C, C++, Python, JavaScript, TypeScript
-- 🔐 Exploring cybersecurity fundamentals
-- 📚 Published author in two anthologies
-
----
-
-## 🔗 Links
-
-- 🌐 **GitHub**: [github.com/krishkake69-code](https://github.com/krishkake69-code)
-- 📧 **Email**: krishkake69@gmail.com
+- AI enthusiast and student developer
+- Proficient in C, C++, Python, JavaScript, and TypeScript
+- Exploring cybersecurity fundamentals
+- Published author in two anthologies
 
 ---
 
-## 📄 License
+## Links
+
+- **GitHub**: [github.com/krishkake69-code](https://github.com/krishkake69-code)
+- **Email**: krishkake69@gmail.com
+
+---
+
+## License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <em>Built with curiosity ✨</em>
-</p>
