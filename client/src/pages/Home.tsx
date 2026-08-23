@@ -30,8 +30,8 @@ import { UniverseCanvas } from "@/components/UniverseCanvas";
 import { buildContactMailto, validateContactFields } from "@/lib/contact";
 
 const ASSETS = {
-  reference: "/manus-storage/astral-reference_949007dc.png",
-  mark: "/manus-storage/orbital-mark_81abcd6f.png",
+  reference: "",
+  mark: "",
 };
 
 const chapters: Chapter[] = [
@@ -144,13 +144,13 @@ const githubOrbProjects: ProjectRecord[] = githubRepos.map((repo, index) => {
 });
 
 const certificates = [
-  { title: "Cyber Job Simulation", issuer: "Forage / Deloitte", date: "02 JUN 2026", detail: "Practical tasks in cyber security", href: "/manus-storage/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_6a1e62146fdb6fe76b0d14f8_1780376591908_completion_certificate_260602103556_cbd92045.pdf" },
-  { title: "C Fundamentals", issuer: "Certificate of Completion", date: "13 JUN 2026", detail: "Completed C Fundamentals section", href: "/manus-storage/i5IUHu-c-0xW5Z9(1)(1)_792dd291.pdf" },
-  { title: "ENDURO Workshop", issuer: "ENDURO × IIT Hyderabad", date: "AUG–SEP 2025", detail: "Software training & inner personality development", href: "/manus-storage/ENDURO25_EN251157_867646e1.pdf" },
-  { title: "Confluence 1.0", issuer: "The Helper / Unstop", date: "28–29 DEC 2025", detail: "36-hour online hackathon participation", href: "/manus-storage/hackathon_885711f1.pdf" },
-  { title: "SRMIST Hackathon", issuer: "Team Byte brigade", date: "31 JUL–01 AUG 2026", detail: "Hackathon participation certificate", href: "/manus-storage/priyanshu-attri-srmist-certificate(1)_4e7c1b75.pdf" },
-  { title: "A Happy Little Somewhere", issuer: "Cloudoffthoughts", date: "PUBLICATION", detail: "Co-author of an anthology; ISBN 978-81-998233-4-1", href: "/manus-storage/book1_e888f390.pdf" },
-  { title: "Love at Minus One", issuer: "Inkfetish Publication", date: "15 FEB 2026", detail: "Published contributing author in an anthology", href: "/manus-storage/book2_712dc548.pdf" },
+  { title: "Cyber Job Simulation", issuer: "Forage / Deloitte", date: "02 JUN 2026", detail: "Practical tasks in cyber security", href: "#" },
+  { title: "C Fundamentals", issuer: "Certificate of Completion", date: "13 JUN 2026", detail: "Completed C Fundamentals section", href: "#" },
+  { title: "ENDURO Workshop", issuer: "ENDURO × IIT Hyderabad", date: "AUG–SEP 2025", detail: "Software training & inner personality development", href: "#" },
+  { title: "Confluence 1.0", issuer: "The Helper / Unstop", date: "28–29 DEC 2025", detail: "36-hour online hackathon participation", href: "#" },
+  { title: "SRMIST Hackathon", issuer: "Team Byte brigade", date: "31 JUL–01 AUG 2026", detail: "Hackathon participation certificate", href: "#" },
+  { title: "A Happy Little Somewhere", issuer: "Cloudoffthoughts", date: "PUBLICATION", detail: "Co-author of an anthology; ISBN 978-81-998233-4-1", href: "#" },
+  { title: "Love at Minus One", issuer: "Inkfetish Publication", date: "15 FEB 2026", detail: "Published contributing author in an anthology", href: "#" },
 ];
 
 export default function Home() {
@@ -314,7 +314,7 @@ export default function Home() {
             <div className="planet-halo" />
             <div className="planet-orbit-line" />
             <div className="origin-planet" />
-            <div className="avatar-astronaut"><span className="avatar-aura" /><div className="avatar-helmet"><img src="/manus-storage/priyanshu-github-avatar_5f600a9f.png" alt="" /></div><span className="avatar-tether" /><span className="avatar-label">PILOT / PA-01</span></div>
+            <div className="avatar-astronaut"><span className="avatar-aura" /><div className="avatar-helmet"><img src="https://github.com/krishkake69-code.png" alt="" /></div><span className="avatar-tether" /><span className="avatar-label">PILOT / PA-01</span></div>
             <div className="github-activity-pulse"><div className="activity-pulse-head"><span><Github size={11} /> LIVE ACTIVITY</span><i /></div><img src="https://github.com/users/krishkake69-code/contributions?from=2026-01-01&amp;to=2026-12-31" alt="GitHub contribution activity for Priyanshu Attri" onError={(event) => { event.currentTarget.style.display = "none"; event.currentTarget.nextElementSibling?.classList.add("is-visible"); }} /><span className="activity-fallback">ACTIVITY PULSE / VIEW PROFILE</span><a href="https://github.com/krishkake69-code" target="_blank" rel="noreferrer">OPEN GITHUB <ExternalLink size={10} /></a></div>
             <span className="planet-label origin-label"><Orbit size={13} /> ORIGIN / PA-01</span>
           </div>
@@ -442,7 +442,7 @@ export default function Home() {
             <div className="contact-actions contact-links">
               <a className="contact-link" href="mailto:krishkake69@gmail.com"><AtSign size={17} /><span><small>EMAIL</small>krishkake69@gmail.com</span><ExternalLink size={14} /></a>
               <a className="contact-link" href="https://github.com/krishkake69-code" target="_blank" rel="noreferrer"><Github size={17} /><span><small>GITHUB</small>github.com / krishkake69-code</span><ExternalLink size={14} /></a>
-              <a className="contact-link resume-download" href="/manus-storage/priyanshu-attri-resume_6f4cde77.pdf" download="Priyanshu-Attri-Resume.pdf"><FileText size={17} /><span><small>RESUME / DOWNLOAD</small>Priyanshu Attri / Resume PDF</span><Download size={14} /></a>
+              <a className="contact-link resume-download" href="#" download="Priyanshu-Attri-Resume.pdf"><FileText size={17} /><span><small>RESUME / DOWNLOAD</small>Priyanshu Attri / Resume PDF</span><Download size={14} /></a>
             </div>
           </div>
           <div className="portal-core" aria-hidden="true"><span className="portal-mark"><span /></span><div className="portal-ring ring-one" /><div className="portal-ring ring-two" /><div className="portal-ring ring-three" /><span>OPEN<br />CHANNEL</span></div>
