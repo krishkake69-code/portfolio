@@ -144,13 +144,13 @@ const githubOrbProjects: ProjectRecord[] = githubRepos.map((repo, index) => {
 });
 
 const certificates = [
-  { title: "Cyber Job Simulation", issuer: "Forage / Deloitte", date: "02 JUN 2026", detail: "Practical tasks in cyber security", href: "#" },
-  { title: "C Fundamentals", issuer: "Certificate of Completion", date: "13 JUN 2026", detail: "Completed C Fundamentals section", href: "#" },
-  { title: "ENDURO Workshop", issuer: "ENDURO × IIT Hyderabad", date: "AUG–SEP 2025", detail: "Software training & inner personality development", href: "#" },
-  { title: "Confluence 1.0", issuer: "The Helper / Unstop", date: "28–29 DEC 2025", detail: "36-hour online hackathon participation", href: "#" },
-  { title: "SRMIST Hackathon", issuer: "Team Byte brigade", date: "31 JUL–01 AUG 2026", detail: "Hackathon participation certificate", href: "#" },
-  { title: "A Happy Little Somewhere", issuer: "Cloudoffthoughts", date: "PUBLICATION", detail: "Co-author of an anthology; ISBN 978-81-998233-4-1", href: "#" },
-  { title: "Love at Minus One", issuer: "Inkfetish Publication", date: "15 FEB 2026", detail: "Published contributing author in an anthology", href: "#" },
+  { title: "Cyber Job Simulation", issuer: "Forage / Deloitte", date: "02 JUN 2026", detail: "Practical tasks in cyber security", href: "/certificates/cyber-job-simulation.pdf" },
+  { title: "C Fundamentals", issuer: "Certificate of Completion", date: "13 JUN 2026", detail: "Completed C Fundamentals section", href: "/certificates/c-fundamentals.pdf" },
+  { title: "ENDURO Workshop", issuer: "ENDURO × IIT Hyderabad", date: "AUG–SEP 2025", detail: "Software training & inner personality development", href: "/certificates/enduro-workshop.pdf" },
+  { title: "Confluence 1.0", issuer: "The Helper / Unstop", date: "28–29 DEC 2025", detail: "36-hour online hackathon participation", href: "/certificates/confluence-hackathon.pdf" },
+  { title: "SRMIST Hackathon", issuer: "Team Byte brigade", date: "31 JUL–01 AUG 2026", detail: "Hackathon participation certificate", href: "/certificates/srmist-hackathon.pdf" },
+  { title: "A Happy Little Somewhere", issuer: "Cloudoffthoughts", date: "PUBLICATION", detail: "Co-author of an anthology; ISBN 978-81-998233-4-1", href: "/certificates/book1.pdf" },
+  { title: "Love at Minus One", issuer: "Inkfetish Publication", date: "15 FEB 2026", detail: "Published contributing author in an anthology", href: "/certificates/book2.pdf" },
 ];
 
 export default function Home() {
@@ -442,7 +442,7 @@ export default function Home() {
             <div className="contact-actions contact-links">
               <a className="contact-link" href="mailto:krishkake69@gmail.com"><AtSign size={17} /><span><small>EMAIL</small>krishkake69@gmail.com</span><ExternalLink size={14} /></a>
               <a className="contact-link" href="https://github.com/krishkake69-code" target="_blank" rel="noreferrer"><Github size={17} /><span><small>GITHUB</small>github.com / krishkake69-code</span><ExternalLink size={14} /></a>
-              <a className="contact-link resume-download" href="#" download="Priyanshu-Attri-Resume.pdf"><FileText size={17} /><span><small>RESUME / DOWNLOAD</small>Priyanshu Attri / Resume PDF</span><Download size={14} /></a>
+              <a className="contact-link resume-download" href="/resume.pdf" download="Priyanshu-Attri-Resume.pdf"><FileText size={17} /><span><small>RESUME / DOWNLOAD</small>Priyanshu Attri / Resume PDF</span><Download size={14} /></a>
             </div>
           </div>
           <div className="portal-core" aria-hidden="true"><span className="portal-mark"><span /></span><div className="portal-ring ring-one" /><div className="portal-ring ring-two" /><div className="portal-ring ring-three" /><span>OPEN<br />CHANNEL</span></div>
