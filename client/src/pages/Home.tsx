@@ -155,6 +155,7 @@ const certificates = [
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [scrollProgress, setScrollProgress] = useState(0);
   const [selectedProject, setSelectedProject] = useState<ProjectRecord | null>(null);
   const [selectedSkill, setSelectedSkill] = useState<string>("Python");
   const [isTraveling, setIsTraveling] = useState(false);
@@ -195,19 +196,80 @@ export default function Home() {
   }, [selectedSkill]);
 
   useEffect(() => {
-    const observers: IntersectionObserver[] = [];
-    sectionRefs.current.forEach((section, index) => {
-      if (!section) return;
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          if (entry.isIntersecting && entry.intersectionRatio > 0.32) setActiveIndex(index);
-        },
-        { threshold: [0.32, 0.55], rootMargin: "-10% 0px -18%" },
-      );
-      observer.observe(section);
-      observers.push(observer);
-    });
-    return () => observers.forEach((observer) => observer.disconnect());
+    let ticking = false;
+
+    const handleScroll = () => {
+      if (ticking) return;
+      ticking = true;
+
+      window.requestAnimationFrame(() => {
+        const scrollY = window.scrollY;
+        const viewportHeight = window.innerHeight;
+        const docHeight = document.documentElement.scrollHeight;
+        const maxScroll = docHeight - viewportHeight;
+
+        // 1. Bottom of page guard
+        if (maxScroll > 0 && scrollY + viewportHeight >= docHeight - 50) {
+          setActiveIndex(chapters.length - 1);
+          setScrollProgress(100);
+          ticking = false;
+          return;
+        }
+
+        // 2. Top of page guard
+        if (scrollY <= 50) {
+          setActiveIndex(0);
+          setScrollProgress(0);
+          ticking = false;
+          return;
+        }
+
+        // 3. Find active section based on the focal line (38% of viewport)
+        const focalLine = viewportHeight * 0.38;
+        let detectedIndex = 0;
+
+        for (let i = 0; i < sectionRefs.current.length; i++) {
+          const section = sectionRefs.current[i];
+          if (!section) continue;
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= focalLine && rect.bottom > focalLine) {
+            detectedIndex = i;
+            break;
+          }
+          if (rect.top <= focalLine) {
+            detectedIndex = i;
+          }
+        }
+        setActiveIndex(detectedIndex);
+
+        // 4. Calculate continuous chapter-to-chapter progress for the rail track
+        const firstSec = sectionRefs.current[0];
+        const lastSec = sectionRefs.current[sectionRefs.current.length - 1];
+
+        if (firstSec && lastSec) {
+          const startY = firstSec.offsetTop;
+          const endY = lastSec.offsetTop;
+          const travelDistance = endY - startY;
+
+          if (travelDistance > 0) {
+            const currentTravel = Math.max(0, Math.min(travelDistance, scrollY - startY));
+            const pct = (currentTravel / travelDistance) * 100;
+            setScrollProgress(pct);
+          }
+        }
+
+        ticking = false;
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll, { passive: true });
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
   }, []);
 
   useEffect(() => {
@@ -252,6 +314,7 @@ export default function Home() {
       if (travelTimer.current) window.clearTimeout(travelTimer.current);
       travelTimer.current = window.setTimeout(() => setIsTraveling(false), 760);
     }
+    setActiveIndex(index);
     section.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
   };
 
@@ -263,20 +326,21 @@ export default function Home() {
 
       <header className="site-header">
         <a className="wordmark" href="#hero" onClick={(event) => { event.preventDefault(); scrollToChapter(0); }}>
-          <img src={ASSETS.mark} alt="" className="wordmark-mark" onError={(event) => { event.currentTarget.style.display = "none"; event.currentTarget.nextElementSibling?.classList.add("is-visible"); }} />
-          <span className="wordmark-mark-fallback" aria-hidden="true"><Orbit size={18} strokeWidth={1.5} /></span>
-          <span><strong>PRIYANSHU</strong><em>ATTRI / UNIVERSE LOG</em></span>
+          <div className="wordmark-text">
+            <strong className="wordmark-name">PRIYANSHU ATTRI</strong>
+            <em className="wordmark-sub">UNIVERSE LOG &bull; PORTFOLIO</em>
+          </div>
         </a>
         <div className="header-signal"><span className="signal-dot" /> SIGNAL LOCKED <span className="header-divider" /> {activeChapter.number} / 06</div>
       </header>
 
-      <ChapterRail chapters={chapters} activeIndex={activeIndex} onSelect={scrollToChapter} />
+      <ChapterRail chapters={chapters} activeIndex={activeIndex} scrollProgress={scrollProgress} onSelect={scrollToChapter} />
 
       <div className="mobile-status" aria-label="Current universe chapter">
         <span className="signal-dot" /> {activeChapter.number} / {activeChapter.label}
       </div>
 
-      <div className="flight-progress" style={{ transform: `scaleY(${activeIndex / (chapters.length - 1)})` }} aria-hidden="true" />
+      <div className="flight-progress" style={{ transform: `scaleY(${scrollProgress / 100})` }} aria-hidden="true" />
 
       <div className="universe-content">
         <section id="hero" ref={(node) => { sectionRefs.current[0] = node; }} className="chapter-stage hero-stage">
